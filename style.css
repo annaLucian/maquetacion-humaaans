@@ -1,14 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+
+:root {
+    --midnight-blue: #27112d;
+    --blue: #2b44ff;
+    --white: white;
+    --black: black;
+    --violet: #e370ff;
+    --font-ovo: 'Ovo', serif;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+button {
+    border: 0;
+    border-radius: 58px;
+    font-family: var(--font-ovo);
+}
+
 body {
-    background-color: rgb(255, 254, 254);
-    font-family: 'Ovo', serif;
+    background-color: var(--white);
+    font-family: var(--font-ovo);
     font-size: 1rem;
 }
-h1 {
-    font-size: 4rem;
+
+.banner {
+    background: var(--black);
+    color: white;
+    display: flex;
+    font-size: 0.9rem;
+    letter-spacing: 0.03rem;
+    padding: 0.5rem;
+    gap: 0.8rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.banner_description {
+    flex-basis: 65%;
+    font-size: 0.85rem;
+}
+
+.banner_btn {
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 0.9rem;
+    flex-basis: 35%;
+    padding: 0.4rem;
+}
+
+.banner_close {
+    font-size: 3rem;
+    flex-basis: 5%;
 }
