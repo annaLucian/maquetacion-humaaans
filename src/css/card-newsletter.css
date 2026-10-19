@@ -13,3 +13,10 @@
     gap: 0.8rem;
     padding: 1rem;
 }
+.card-newsletter__img {
+    width: 8rem;
+}
+.card-newsletter__link {
+    font-size: 0.85em;
+    opacity: 0.5;
+}
