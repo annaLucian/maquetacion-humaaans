@@ -1,0 +1,26 @@
+:root {
+    --midnight-blue: #27112d;
+    --blue: #2b44ff;
+    --white: white;
+    --black: black;
+    --violet: #e370ff;
+    --font-ovo: 'Ovo', serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: 0;
+    border-radius: 58px;
+    font-family: var(--font-ovo);
+}
+
+body {
+    background-color: var(--white);
+    font-family: var(--font-ovo);
+    font-size: 1rem;
+}
