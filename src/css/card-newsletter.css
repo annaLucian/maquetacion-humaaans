@@ -1,0 +1,15 @@
+.card-newsletter {
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    margin: 0;
+    padding: 5rem 0.75rem 3rem;
+    display: flex;
+}
+.card-newsletter__container {
+    background: var(--card-newsletter-bg-primary);
+    border: 1px solid var(--card-newsletter-secondary);
+    display: flex;
+    gap: 0.8rem;
+    padding: 1rem;
+}
