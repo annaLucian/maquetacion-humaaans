@@ -10,14 +10,15 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
-.banner_description {
+.banner__description {
     flex-basis: 65%;
     font-size: 0.85rem;
 }
 
-.banner_btn {
+.banner__btn {
     background-color: var(--blue);
     color: var(--white);
     font-size: 0.9rem;
@@ -25,7 +26,7 @@
     padding: 0.4rem;
 }
 
-.banner_close {
+.banner__btn-close {
     font-size: 3rem;
     flex-basis: 5%;
 }

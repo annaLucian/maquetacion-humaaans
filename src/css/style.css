@@ -1,3 +1,4 @@
-/*
-    Aquí va tu código CSS
-*/
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+@import url('./reset.css');
+@import url('hero.css');
+@import url('banner.css');
