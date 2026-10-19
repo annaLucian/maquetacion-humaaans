@@ -6,6 +6,7 @@
     padding: 8rem 0.9rem;
     display: flex;
     position: relative;
+    overflow: hidden;
 }
 .customizer__subheading {
     margin-bottom: 1rem;
