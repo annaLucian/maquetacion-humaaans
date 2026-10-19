@@ -1,0 +1,25 @@
+.customizer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8rem 0.9rem;
+    display: flex;
+    position: relative;
+}
+.customizer__subheading {
+    margin-bottom: 1rem;
+}
+.customizer__logo {
+    width: 1.5rem;
+}
+.customizer__text {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.customizer__gif {
+    position: relative;
+    width: 22rem;
+    transform: scale(1.1);
+    margin-top: 2rem;
+}

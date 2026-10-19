@@ -30,4 +30,18 @@ body {
     background-color: var(--white);
     font-family: var(--font-ovo);
     font-size: 1rem;
+    overflow-x: hidden;
+}
+h2 {
+    font-size: 2.5rem;
+    line-height: 2.6rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 100;
+    opacity: 0.8;
 }

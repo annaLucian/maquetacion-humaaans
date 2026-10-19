@@ -9,17 +9,7 @@
     overflow: hidden;
     position: relative;
 }
-.remix__heading {
-    font-size: 2.5rem;
-    line-height: 2.6rem;
-    font-weight: bolder;
-    margin-bottom: 1rem;
-}
 
-.remix__subheading {
-    font-size: 1rem;
-    font-weight: 100;
-}
 .remix__img {
     width: 25rem;
     position: relative;
