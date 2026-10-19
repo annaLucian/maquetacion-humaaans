@@ -8,7 +8,7 @@
 }
 .card-newsletter__container {
     background: var(--card-newsletter-bg-primary);
-    border: 1px solid var(--card-newsletter-secondary);
+    border: 2px solid var(--card-newsletter-secondary);
     display: flex;
     gap: 0.8rem;
     padding: 1rem;
