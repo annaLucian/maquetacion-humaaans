@@ -136,3 +136,23 @@
         gap: 0.5rem;
     }
 }
+@media (min-width: 1200px) {
+    .hero {
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 130vh;
+    }
+    .hero__image--4 {
+        width: 20rem;
+        top: -8rem;
+        right: 1rem;
+    }
+    .hero__image--2 {
+        width: 22rem;
+        left: 0;
+    }
+    .hero__image--1 {
+        width: 24rem;
+        right: 0;
+    }
+}

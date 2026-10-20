@@ -1,6 +1,8 @@
 .remix {
-    text-align: center;
     background-color: #eefafa;
+}
+.remix__container {
+    text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -17,11 +19,27 @@
     transform: scale(1.4);
 }
 @media (min-width: 768px) {
-    .remix {
+    .remix__container {
         padding: 10rem 0;
     }
     .remix__img {
         transform: scale(1.8);
         margin-top: 3rem;
+    }
+}
+@media (min-width: 1200px) {
+    .remix-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .remix__heading {
+        margin-bottom: 0.5rem;
+    }
+    .remix__subheading {
+        font-size: 2rem;
+    }
+    .remix__img {
+        transform: scale(2.5);
+        margin: 7rem 0;
     }
 }

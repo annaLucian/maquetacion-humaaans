@@ -31,6 +31,7 @@ body {
     font-family: var(--font-ovo);
     font-size: 1rem;
     overflow-x: hidden;
+    color: var(--midnight-blue);
 }
 h2 {
     font-size: 2.5rem;

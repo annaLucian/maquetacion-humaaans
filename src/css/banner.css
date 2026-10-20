@@ -1,5 +1,12 @@
 .banner {
     background: var(--black);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.banner__container {
     color: white;
     display: flex;
     font-size: 0.9rem;
@@ -8,11 +15,6 @@
     gap: 0.8rem;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
 }
 .banner__icon {
     display: none;
@@ -34,7 +36,7 @@
 }
 
 @media (min-width: 768px) {
-    .banner {
+    .banner__container {
         padding: 0 5rem;
     }
     .banner__icon {
@@ -47,5 +49,12 @@
     .banner__description,
     .banner__btn {
         font-size: 1.1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner__container {
+        max-width: 800px;
+        margin: 0 auto;
     }
 }

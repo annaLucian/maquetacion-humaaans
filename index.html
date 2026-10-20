@@ -9,16 +9,18 @@
     </head>
     <body>
         <section class="banner">
-            <section class="banner__icon">
-                <img src="./src/assets/img//logos/luminance.webp" alt="logo luminance" />
-                <a
-                    href="https://www.lummi.ai/?utm_source=Humaaans&utm_medium=banner&utm_campaign=Humaaans"
-                    target="_blank"
-                ></a>
-            </section>
-            <p class="banner__description">Discover curated, free images for your projects!</p>
-            <button class="banner__btn">Explore Lummi</button>
-            <p class="banner__btn-close">×</p>
+            <div class="banner__container">
+                <section class="banner__icon">
+                    <img src="./src/assets/img//logos/luminance.webp" alt="logo luminance" />
+                    <a
+                        href="https://www.lummi.ai/?utm_source=Humaaans&utm_medium=banner&utm_campaign=Humaaans"
+                        target="_blank"
+                    ></a>
+                </section>
+                <p class="banner__description">Discover curated, free images for your projects!</p>
+                <button class="banner__btn">Explore Lummi</button>
+                <p class="banner__btn-close">×</p>
+            </div>
         </section>
         <section class="hero">
             <div class="hero__images">
@@ -66,9 +68,11 @@
             >
         </section>
         <section class="remix">
-            <h2 class="heading">Create your own remix.</h2>
-            <h3 class="subheading">Change the hairdos, tops, and pants.</h3>
-            <img src="./src/assets/img/ilustration-mixes.gif" alt="personas caminando" class="remix__img" />
+            <div class="remix__container">
+                <h2 class="heading remix__heading">Create your own remix.</h2>
+                <h3 class="subheading remix__subheading">Change the hairdos, tops, and pants.</h3>
+                <img src="./src/assets/img/ilustration-mixes.gif" alt="personas caminando" class="remix__img" />
+            </div>
         </section>
         <section class="customizer">
             <div class="customizer__content">
@@ -85,62 +89,66 @@
             <img src="./src/assets/img/mixing-optimized.gif" alt="edicion de imagenes" class="customizer__gif" />
         </section>
         <section class="scene">
-            <div class="scene__content">
-                <h2 class="heading">Make a Sceeene.</h2>
-                <h3 class="subheading scene__subheading">Add a bit of ambience to your content.</h3>
+            <div class="scene__container">
+                <div class="scene__content">
+                    <h2 class="heading">Make a Sceeene.</h2>
+                    <h3 class="subheading scene__subheading">Add a bit of ambience to your content.</h3>
+                </div>
+                <img src="./src/assets/img/scenes.gif" alt="pasan muchos fondos de paisajes" class="scene__gif" />
             </div>
-            <img src="./src/assets/img/scenes.gif" alt="pasan muchos fondos de paisajes" class="scene__gif" />
         </section>
         <section class="template">
-            <div class="template__content">
-                <h2 class="heading">Start with a template..</h2>
-                <h3 class="subheading template__subheading">
-                    Use it on onboardings, grids, or empty/error/success states
-                </h3>
-            </div>
-            <div class="template__gallery--mobile">
-                <img
-                    src="./src/assets/img/templates/mobile-done.webp"
-                    alt="hombre mirando hacia la derecha"
-                    class="template__card--mobile"
-                />
-                <img
-                    src="./src/assets/img/templates/mobile-found.webp"
-                    alt="hombre sentado y señalando"
-                    class="template__card--mobile"
-                />
-                <img
-                    src="./src/assets/img/templates/mobile-onboarding.webp"
-                    alt="mujer caminando"
-                    class="template__card--mobile"
-                />
-                <img
-                    src="./src/assets/img/templates/mobile-quiz.webp"
-                    alt="varios rostros de personas"
-                    class="template__card--mobile"
-                />
-            </div>
-            <div class="template__gallery--web">
-                <img
-                    src="./src/assets/img/templates/mobile-design.webp"
-                    alt="una pagina web en diseño"
-                    class="template__card template__card--web"
-                />
-                <img
-                    src="./src/assets/img/templates/mobile-after.webp"
-                    alt="dos personas conversando"
-                    class="template__card template__card--web"
-                />
-                <img
-                    src="./src/assets/img/templates/mobile-explained.webp"
-                    alt="una mujer y un hombre en silla de ruedas conversando"
-                    class="template__card template__card--web"
-                />
-                <img
-                    src="./src/assets/img/templates/mobile-features.webp"
-                    alt="varias personas conversando"
-                    class="template__card template__card--web"
-                />
+            <div class="template__container">
+                <div class="template__content">
+                    <h2 class="heading">Start with a template..</h2>
+                    <h3 class="subheading template__subheading">
+                        Use it on onboardings, grids, or empty/error/success states
+                    </h3>
+                </div>
+                <div class="template__gallery--mobile">
+                    <img
+                        src="./src/assets/img/templates/mobile-done.webp"
+                        alt="hombre mirando hacia la derecha"
+                        class="template__card--mobile"
+                    />
+                    <img
+                        src="./src/assets/img/templates/mobile-found.webp"
+                        alt="hombre sentado y señalando"
+                        class="template__card--mobile"
+                    />
+                    <img
+                        src="./src/assets/img/templates/mobile-onboarding.webp"
+                        alt="mujer caminando"
+                        class="template__card--mobile"
+                    />
+                    <img
+                        src="./src/assets/img/templates/mobile-quiz.webp"
+                        alt="varios rostros de personas"
+                        class="template__card--mobile"
+                    />
+                </div>
+                <div class="template__gallery--web">
+                    <img
+                        src="./src/assets/img/templates/mobile-design.webp"
+                        alt="una pagina web en diseño"
+                        class="template__card template__card--web"
+                    />
+                    <img
+                        src="./src/assets/img/templates/mobile-after.webp"
+                        alt="dos personas conversando"
+                        class="template__card template__card--web"
+                    />
+                    <img
+                        src="./src/assets/img/templates/mobile-explained.webp"
+                        alt="una mujer y un hombre en silla de ruedas conversando"
+                        class="template__card template__card--web"
+                    />
+                    <img
+                        src="./src/assets/img/templates/mobile-features.webp"
+                        alt="varias personas conversando"
+                        class="template__card template__card--web"
+                    />
+                </div>
             </div>
         </section>
         <footer class="footer">

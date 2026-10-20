@@ -1,4 +1,7 @@
 .template {
+    background: #d3f2f5;
+}
+.template__container {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -7,7 +10,6 @@
     display: flex;
     position: relative;
     overflow: hidden;
-    background: #d3f2f5;
 }
 .template__subheading {
     margin-bottom: 1.5rem;
@@ -37,7 +39,7 @@
 }
 
 @media (min-width: 768px) {
-    .template {
+    .template__container {
         padding: 10rem 1.2rem;
     }
     .template__card--mobile {
@@ -45,5 +47,15 @@
     }
     .template__card--web {
         width: 48%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .template__container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .template__subheading {
+        font-size: 1.8rem;
     }
 }
