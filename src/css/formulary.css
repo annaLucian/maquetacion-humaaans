@@ -139,7 +139,7 @@
     .contact-form__input,
     .contact-form__select,
     .contact-form__textarea {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     .contact-form__input,
     .contact-form__select,
@@ -147,6 +147,7 @@
         padding: 1rem;
     }
     .contact-form__btn {
-        width: 60%;
+        width: 20%;
+        font-size: 1.1rem;
     }
 }
