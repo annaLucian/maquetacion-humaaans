@@ -19,7 +19,7 @@
                 </section>
                 <p class="banner__description">Discover curated, free images for your projects!</p>
                 <button class="banner__btn">Explore Lummi</button>
-                <p class="banner__btn-close">×</p>
+                <button class="banner__btn-close">×</button>
             </div>
         </section>
         <section class="hero">
@@ -149,6 +149,67 @@
                         class="template__card template__card--web"
                     />
                 </div>
+            </div>
+        </section>
+        <section class="contact-form">
+            <div class="contact-form__container">
+                <h2 class="heading">Get with touch with Humaaans</h2>
+                <h3 class="subheading">
+                    Have questions, feedback, or a parthership idea?. We'd love to hear from you.
+                </h3>
+                <img src="./src/assets/img/formulary.png" alt="personas conversando" class="contact-form__img" />
+                <form action="" class="contact-form__element">
+                    <div class="contact-form__content">
+                        <div class="contact-form__input-container">
+                            <label for="full-name" class="contact-form__label">Full Name:</label>
+                            <input
+                                id="full-name"
+                                type="text"
+                                name="fullName"
+                                placeholder="e.g. Jane Doe"
+                                class="contact-form__input"
+                            />
+                        </div>
+                        <div class="contact-form__input-container">
+                            <label for="email" class="contact-form__label">Email:</label>
+                            <input
+                                id="email"
+                                type="email"
+                                name="email"
+                                placeholder="user@ejemplo.com"
+                                class="contact-form__input"
+                            />
+                        </div>
+                    </div>
+                    <div class="contact-form__content">
+                        <div class="contact-form__input-container">
+                            <label for="select-question" class="contact-form__label">Subject</label>
+                            <select required id="select-question" name="select-question" class="contact-form__select">
+                                <option value="" disabled selected>Choose a question</option>
+                                <option value="technical">Technical support</option>
+                                <option value="licensing">Licensing inquiry</option>
+                                <option value="partnership">Partnership proposal</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                        <div class="contact-form__input-container">
+                            <label for="message" class="contact-form__label">Message</label>
+                            <textarea
+                                required
+                                id="message"
+                                name="message"
+                                rows="4"
+                                placeholder="Tell us more..."
+                                class="contact-form__textarea"
+                            >
+                            </textarea>
+                        </div>
+                    </div>
+
+                    <div class="contact-form__container-btn">
+                        <button type="submit" class="contact-form__btn">Send messsage</button>
+                    </div>
+                </form>
             </div>
         </section>
         <footer class="footer">
