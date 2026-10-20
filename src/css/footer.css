@@ -65,3 +65,12 @@
     transform: scale(3);
     width: 25rem;
 }
+@media (min-width: 768px) {
+    .footer__heading {
+        font-size: 4rem;
+        line-height: 4.2rem;
+    }
+    .footer__text-content {
+        font-size: 1rem;
+    }
+}

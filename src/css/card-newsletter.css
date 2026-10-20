@@ -9,6 +9,7 @@
 .card-newsletter__container {
     background: var(--card-newsletter-bg-primary);
     border: 2px solid var(--card-newsletter-secondary);
+    width: 100%;
     display: flex;
     gap: 0.8rem;
     padding: 1rem;
@@ -19,4 +20,16 @@
 .card-newsletter__link {
     font-size: 0.85em;
     opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+    .card-newsletter__container,
+    .card-newsletter__link {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .card-newsletter__link {
+        margin-top: 0.5rem;
+        text-align: end;
+    }
 }

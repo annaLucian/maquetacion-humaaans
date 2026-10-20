@@ -35,3 +35,15 @@
     width: 100%;
     margin-bottom: 2rem;
 }
+
+@media (min-width: 768px) {
+    .template {
+        padding: 10rem 1.2rem;
+    }
+    .template__card--mobile {
+        width: 22%;
+    }
+    .template__card--web {
+        width: 48%;
+    }
+}

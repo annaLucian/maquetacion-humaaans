@@ -16,11 +16,30 @@
 }
 .customizer__text {
     font-size: 0.9rem;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 .customizer__gif {
     position: relative;
     width: 22rem;
     transform: scale(1.1);
     margin-top: 2rem;
+}
+@media (min-width: 768px) {
+    .customizer {
+        padding: 10rem 1.2rem;
+    }
+    .customizer__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+    .customizer__text {
+        font-size: 1.1rem;
+    }
+    .customizer__gif {
+        width: 90%;
+        margin-top: 2rem;
+    }
 }
